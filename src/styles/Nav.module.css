@@ -1,0 +1,48 @@
+nav.nav {
+    height: 60px;
+    width: 100vw;
+    background: #001f3f;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.links {
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+a.links:hover {
+    transition: all .3s ease-in-out;
+    background-color: #AAAAAA;
+    height: inherit;
+    display: inherit;
+    align-items: inherit;
+}
+
+.activeLink {
+    background-color: #AAAAAA;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.ico {
+    font-size: 50px;
+}
+
+span {
+    font-size: 1rem;
+    color: white;
+    user-select: none;
+}
